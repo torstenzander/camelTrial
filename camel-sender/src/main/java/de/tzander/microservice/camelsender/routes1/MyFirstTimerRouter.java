@@ -9,9 +9,6 @@ import java.time.LocalDateTime;
 @Component
 public class MyFirstTimerRouter extends RouteBuilder {
 
-            @Autowired
-    private GetCurrentTimeBean getCurrentTimeBean;
-
     @Override
     public void configure() throws Exception {
         for (int i = 0; i < 5; i++) {
@@ -20,12 +17,5 @@ public class MyFirstTimerRouter extends RouteBuilder {
                     .transform().constant("Schleife: " + i + " Zeit: " + LocalDateTime.now())
                     .to("log:first-timer");
         }
-    }
-}
-
-@Component
-class GetCurrentTimeBean{
-    public String getCurrentTime(){
-        return "Time: " + LocalDateTime.now();
     }
 }

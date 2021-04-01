@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/camel-receiver/camel-receiver.iml" filepath="$PROJECT_DIR$/camel-receiver/camel-receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camel-sender/camel-sender.iml" filepath="$PROJECT_DIR$/camel-sender/camel-sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/camelTrial.iml" filepath="$PROJECT_DIR$/.idea/camelTrial.iml" />
+    </modules>
+  </component>
+</project>
